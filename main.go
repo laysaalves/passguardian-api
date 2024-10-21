@@ -10,5 +10,5 @@ func main() {
     config.ConnectToMongo()
     router := gin.Default()
     routes.InitializeRoutes(router)
-    router.Run("localhost:3000")
+    router.Run("0.0.0.0:3000")
 }
