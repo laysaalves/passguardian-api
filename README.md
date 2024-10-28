@@ -43,11 +43,18 @@ This is an API with the sole purpose of learning how to use non-relational datab
   "password": "mypassword123"
 }
 ```
+```json
+{
+  "serviceName": "Instagram",
+  "user": "Pythoneiro",
+  "password": "senhona426"
+}
+```
 
 **RESPONSE**
 ```json
 {
-  "message": "Credentials saved successfully!"
+  "message": "Credential saved successfully!"
 }
 ```
 
@@ -71,8 +78,15 @@ This is an API with the sole purpose of learning how to use non-relational datab
 
 <h3 id="delete-credential-by-id">DELETE /credentials/:id</h3>
 
+**REQUEST**
+```json
+{
+  "id": "6716baed4f1c6829e2ab9cbe"
+}
+```
+
 **RESPONSE**
 ```json
 {
-  "message": "Credentials deleted successfully!"
+  "message": "Credential deleted successfully!"
 }
