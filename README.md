@@ -11,7 +11,7 @@
 
 ## Introduction
 
-This is an API with the sole purpose of learning how to use non-relational databases from the Golang language and how to build the security of an application, in this case using fictitious data for encryption.
+This is an API with the sole purpose of learning how to use non-relational databases from the Golang language and how to build the security of an application, in this case using dummy data for encryption, as well as serving in a Docker container.
 
 ## API Endpoints
 ​
@@ -50,3 +50,29 @@ This is an API with the sole purpose of learning how to use non-relational datab
   message: "Credentials saved successfully!"
 }
 ```
+
+<h3 id="get-credential-by-id">GET /credentials/:id</h3>
+
+**REQUEST**
+```json
+{
+  "id": "6716baed4f1c6829e2ab9cbe"
+}
+```
+
+**RESPONSE**
+```json
+{
+  "serviceName": "Instagram",
+  "user": "Pythoneiro",
+  "password": "senhona426"
+}
+```
+
+<h3 id="delete-credential-by-id">DELETE /credentials/:id</h3>
+
+**RESPONSE**
+```json
+{
+  message: "Credentials deleted successfully!"
+}
