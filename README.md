@@ -47,7 +47,7 @@ This is an API with the sole purpose of learning how to use non-relational datab
 **RESPONSE**
 ```json
 {
-  message: "Credentials saved successfully!"
+  "message": "Credentials saved successfully!"
 }
 ```
 
@@ -74,5 +74,5 @@ This is an API with the sole purpose of learning how to use non-relational datab
 **RESPONSE**
 ```json
 {
-  message: "Credentials deleted successfully!"
+  "message": "Credentials deleted successfully!"
 }
