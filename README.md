@@ -6,7 +6,6 @@
 - Go
 - Gin
 - MongoDB
-- Docker
 - Postman
 
 ## Introduction
@@ -14,7 +13,6 @@
 The purpose of this API is to learn how synchronous cryptography works in practice, taking into account the Information Security and Introduction to Computer Programming classes at my Computer Science university, which cover these topics using the C language, which is similar to Golang.
 
 ## API Endpoints
-​
 | route               | description                                          
 |----------------------|-----------------------------------------------------
 | <kbd>GET /login-credentials</kbd>     | retrieves user credentials see [response details](#get-credentials-detail)
@@ -36,7 +34,7 @@ The purpose of this API is to learn how synchronous cryptography works in practi
 {
   "serviceName": "Instagram",
   "user": "Pythoneiro",
-  "password": "senhona426"
+  "password": "senhona426 <- (decrypted)"
 }
 ```
 
@@ -72,7 +70,7 @@ The purpose of this API is to learn how synchronous cryptography works in practi
 {
   "serviceName": "Instagram",
   "user": "Pythoneiro",
-  "password": "senhona426"
+  "password": "senhona426 <- (decrypted)"
 }
 ```
 
