@@ -11,7 +11,7 @@
 
 ## Introduction
 
-This is an API with the sole purpose of learning how to use non-relational databases from the Golang language and how to build the security of an application, in this case using dummy data for encryption, as well as serving in a Docker container.
+The purpose of this API is to learn how synchronous cryptography works in practice, taking into account the Information Security and Introduction to Computer Programming classes at my Computer Science university, which cover these topics using the C language, which is similar to Golang.
 
 ## API Endpoints
 ​
@@ -29,7 +29,14 @@ This is an API with the sole purpose of learning how to use non-relational datab
 {
   "serviceName": "GitHub",
   "user": "Golango",
-  "password": "mypassword432"
+  "password": "mypassword432 <- (decrypted)"
+}
+```
+```json
+{
+  "serviceName": "Instagram",
+  "user": "Pythoneiro",
+  "password": "senhona426"
 }
 ```
 
@@ -40,14 +47,7 @@ This is an API with the sole purpose of learning how to use non-relational datab
 {
   "serviceName": "Twitch",
   "user": "Java Scripto",
-  "password": "mypassword123"
-}
-```
-```json
-{
-  "serviceName": "Instagram",
-  "user": "Pythoneiro",
-  "password": "senhona426"
+  "password": "mypassword123 <- (encrypted)"
 }
 ```
 
